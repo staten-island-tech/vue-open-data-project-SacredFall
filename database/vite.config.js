@@ -11,6 +11,13 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  theme: {
+    extend: {
+      fontfamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
