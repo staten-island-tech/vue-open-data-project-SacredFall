@@ -3,5 +3,7 @@ import taskBar from '@/components/taskBar.vue'
 </script>
 
 <template>
-  <taskBar></taskBar>
+  <div class="flex justify-center">
+    <taskBar></taskBar>
+  </div>
 </template>
